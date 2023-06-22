@@ -1,0 +1,53 @@
+/* body{
+    background-color:rgb(61, 168, 159);
+    
+} */
+.carousel {
+    width: 70%;
+    height: 70%;
+    margin:auto;
+    margin-top: 1%;
+    min-height: 440px;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  #section2 {
+    height: 600px;
+    background-color: darkslategray;
+  }
+  .nav-link.active:hover,.nav-link:hover{
+    color:black;
+    transition: 0.1s ease-in-out;
+    border-bottom: 1px solid ;
+    border-top: 1px solid;
+
+    border-radius: 30%;
+}
+.navbar ul li { 
+	padding: 0px 12px; 
+ }
+ button {
+    background-color: #0481aa;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  @keyframes floatup {
+    0%{
+      opacity:0;
+      transform: translateY(0px);
+    }
+    100%{
+      opacity:1;
+      transform: translateY(-20px);
+    }
+  }
+  
+  .classname{
+    animation: floatup 2s ease-in-out;
+  }
